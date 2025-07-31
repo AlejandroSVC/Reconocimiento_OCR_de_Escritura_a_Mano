@@ -27,13 +27,12 @@ cv2.imwrite('step1_preprocessed.png', processed)                # Guardar imagen
 ```
 ## Paso 2: Reconocimiento de escritura a mano mediante EasyOCR
 
-```
 python name = step2_easyocr.py
 
 En este paso utilizamos EasyOCR, una librería fácil de usar y con soporte multilenguaje, ideal para obtener buenos resultados en textos manuscritos generales.
 
 Se carga el modelo, se procesa la imagen preprocesada y se imprimen los resultados detectados.
-
+```
 import easyocr                                              # Importar EasyOCR para reconocimiento OCR
 
 reader = easyocr.Reader(['es'], gpu=False)                  # Inicializar lector para español, sin GPU
