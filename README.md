@@ -1,4 +1,6 @@
-# Reconocimiento OCR de escritura a mano en Python
+# Reconocimiento OCR de escritura a mano
+
+![handwriting](docs/assets/images/handwriting.jpg)
 
 El reconocimiento óptico de caracteres (OCR) de escritura a mano es un reto interesante y útil en el procesamiento de documentos. Aquí te mostramos un flujo robusto, en cuatro pasos, usando diferentes librerías líderes de Python en cada uno. Aprenderás desde la mejora de la imagen hasta la aplicación de modelos especializados para textos complejos y el uso de soluciones ligeras para casos sencillos o impresos.
 
